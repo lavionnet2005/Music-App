@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <include layout = "@layout/activity_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_note"
+        android:layout_margin="25dp"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/buttonColor"
+        android:paddingTop="30dp"
+        android:paddingBottom="25dp"/>
+
+    <Button
+        android:text="@string/activity_playlists"
+        android:id="@+id/playlists"
+        android:layout_below="@+id/textView"
+        style="@style/ButtonStyle" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/activity_artists"
+        android:id="@+id/artists"
+        android:layout_below="@+id/playlists" />
+
+    <Button
+        android:text="@string/activity_albums"
+        android:id="@+id/albums"
+        android:layout_below="@+id/artists"
+        style="@style/ButtonStyle" />
+
+    <Button
+        android:text="@string/activity_songs"
+        android:layout_below="@+id/albums"
+        android:id="@+id/songs"
+        style="@style/ButtonStyle" />
+
+    <include layout = "@layout/activity_footer"/>
+
+</RelativeLayout>

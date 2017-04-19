@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="activity_albums">Albums</string>
+    <string name="activity_artists">Artists</string>
+    <string name="activity_playlists">Playlists</string>
+    <string name="activity_songs">All Songs</string>
+    <string name="welcome_note">Welcome to Music World !!!</string>
+    <string name="sad_songs">Sad Songs</string>
+    <string name="happy_songs">Happy Songs</string>
+    <string name="party_songs">Party Songs</string>
+    <string name="romantic_songs">Romantic Songs</string>
+    <string name="all_songs_list">Songs</string>
+    <string name="play_songs">PlayList</string>
+    <string name="playButton">Play</string>
+    <string name="pauseButton">Pause</string>
+    <string name="stopButton">Stop</string>
+    <string name="nowPlaying">  Now Playing  </string>
+</resources>
